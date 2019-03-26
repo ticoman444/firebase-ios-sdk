@@ -7,7 +7,7 @@ currently only supports parsing a Code Coverage report generated from XCov.
 
 ```
 swift build
-.build/debug/Metrics -c=example_report.json -o=database.json -p=99
+.build/debug/Metrics -c Tests/MetricsTests/example_report.json -o database.json -p 99
 ```
 
 This generates a database.json file that can be executed through a pre-existing Java uploader that
