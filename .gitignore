@@ -83,7 +83,7 @@ Ninja
 /.vs
 
 # CocoaPods generate
-gen/
+gen/*
 
 # Enable checking in the generated xcode project for Firebase Functions to run CI on XCode Server.
 !gen/FirebaseFunctions/FirebaseFunctions.xcodeproj/
