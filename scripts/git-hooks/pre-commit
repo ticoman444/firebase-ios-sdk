@@ -83,11 +83,6 @@ update_generated_xcode_files() {
     git rm -r gen/$FirebaseProduct/$FirebaseProduct.xcodeproj/xcuserdata -f -q
   fi
 
-  echo >&2 "Git removing xcuserdata files in generated $FirebaseProduct.workspace"
-  if [ -d gen/$FirebaseProduct/$FirebaseProduct.workspace/xcuserdata ]; then
-    git rm -r gen/$FirebaseProduct/$FirebaseProduct.workspace/xcuserdata -f -q
-  fi
-
 # ========================== FUNCTIONS HOOK ==========================
 
 # Check 2: If there are changes to Functions files, then re-generate XCode project.

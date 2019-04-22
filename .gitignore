@@ -87,7 +87,6 @@ gen/*
 
 # Enable checking in the generated xcode project for Firebase Functions to run CI on XCode Server.
 !gen/FirebaseFunctions/FirebaseFunctions.xcodeproj/
-!gen/FirebaseFunctions/FirebaseFunctions.xcworkspace/
 !gen/FirebaseFunctions/Podfile.yaml
 !gen/FirebaseFunctions/READ_ME.md
 
